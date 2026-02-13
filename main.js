@@ -106,6 +106,8 @@ totalQuiz.innerHTML = questions.length;
 const correctAns = document.getElementById("correct-ans");
 const wrongAns = document.getElementById("wrong-ans");
 
+
+// show quiz handler
 const handleShowQuiz = (quizNumber) => {
   question.innerHTML = questions[quizNumber].question;
 
