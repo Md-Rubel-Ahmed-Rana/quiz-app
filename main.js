@@ -1,3 +1,4 @@
+// questions array
 const questions = [
   {
     question: "What is JavaScript?",
@@ -70,6 +71,7 @@ const questions = [
 // by default show first question
 let startFromQuiz = 0;
 
+// user selected answers
 let selectedAnswers = [];
 let currentAnswer = "";
 
