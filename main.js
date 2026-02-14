@@ -128,6 +128,7 @@ const handleShowQuiz = (quizNumber) => {
   answer4Input.checked = false;
 };
 
+// next question show handler
 const handleGoNextQuiz = () => {
   startFromQuiz++;
   prevButton.removeAttribute("disabled");
