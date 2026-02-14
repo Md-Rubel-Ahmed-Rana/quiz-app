@@ -147,6 +147,7 @@ const handleBackPrevQuiz = () => {
   handleShowQuiz(startFromQuiz);
 };
 
+// disable prev button when first question is being shown
 const handleDisablePrevButton = () => {
   if (startFromQuiz === 0) {
     prevButton.classList.add("disabled-button");
